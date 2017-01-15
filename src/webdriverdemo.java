@@ -5,8 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class webdriverdemo {
    public static void main(String[] args) {
 
-	   System.setProperty("webdriver.chrome.driver", "D:\\develop\\selenium\\selenium-demo\\resources\\chromedriver_win32\\chromedriver.exe");
-	   System.setProperty("webdriver.chrome.logfile","D:\\develop\\selenium\\selenium-demo\\resources\\chromedriver_win32\\chromedriver.txt");
+	   System.setProperty("webdriver.chrome.driver", "resources\\chromedriver_win32\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.logfile","resources\\chromedriver_win32\\chromedriver.txt");
 
       WebDriver driver = new ChromeDriver();
       //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
